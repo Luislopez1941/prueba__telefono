@@ -1,0 +1,33 @@
+body {
+    background-color: #100DDE;
+    overflow: hidden;
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+    
+}
+.hero__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    
+}
+.logo {
+    margin-top: 30px;
+    width: 100px;
+   
+}
+
+.container img  {
+    width: 500px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .container img  {
+        width: 300px;
+        
+    }
+}
